@@ -1,0 +1,300 @@
+div{
+    display: inline-block;
+}
+#option-bar{
+    height: 40px;
+}
+.option{
+    display: inline-block;
+    border-right: 1px solid brown;
+    padding: 0px 10px 0 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.option:hover{
+    text-decoration: underline;
+}
+#a{
+    margin-right: 350px;
+}
+#profile{
+    padding-bottom: 5px;
+}
+#pp{
+   display: inline-flex;
+   width: 150px;
+   justify-content: space-evenly;
+}
+#pt{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+#pt:hover{
+    text-decoration: underline;
+}
+#st{
+    font-family: Lato,sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#search{
+    display: flex;
+}
+#select{
+    height: 33px;
+    border: none;
+    background-color: #DDDDDD;
+    outline: none;
+}
+#search_bar{
+    width: 500px;
+    height: 31px;
+    border: none;
+    outline: none;
+}
+#bar{
+    border: 2px solid #3e5962;
+}
+#cart{
+    margin-left: 200px;
+}
+#category{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.category{
+    display: inline-block;
+    border-right: 1px solid brown;
+    padding: 0px 10px 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.category:hover{
+    text-decoration: underline;
+}
+#sale_bar{
+    width: 100%;
+    margin: 3px 0 6px 0;
+}
+#sale_link{
+    text-decoration: none;
+    color: #f6f3f3;
+}
+#sale{
+    width: 100%;
+    font-size: 16px;
+    background-color: #3d5962;
+    text-align: center;
+    padding: 12px 0 12px 0;
+    letter-spacing: 0.6px;
+}
+.text1{
+    width: 100vw;
+    height: 80px;
+}
+.text1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+.icons{
+    width: 100vw;
+    height: 100px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container{
+    width: 100px;
+    height: 100%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container i{
+    font-size: 30px;
+    color: #202020;
+}
+.icon-container i:hover{
+    font-size: 35px;
+    color: black;
+}
+
+.comingSoon h2{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.container-books1{
+    width: 93vw;
+    height: 250px;
+    display: flex;
+    background-color: azure;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.leftScroll{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    font-size: 40px;
+}
+.rightScroll{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    font-size: 40px;
+}
+.leftScroll i{
+    font-size: 40px;
+    color: #404040;
+}
+.rightScroll i{
+    font-size: 40px;
+    color: #404040;
+}
+.container-books11{
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cSbook{
+    width: 180px;
+    height: 90%;
+    background-color: red;
+}
+
+
+.cSbook:first-child{
+    background-image: url(images/theMarvel.webp);
+    background-size: 100% 100%;
+}
+.cSbook:nth-child(2){
+    background-image: url(images/theMCU.webp);
+    background-size: 100% 100%;
+}
+.cSbook:nth-child(3){
+    background-image: url(images/deadpool.webp);
+    background-size: 100% 100%;
+}
+.cSbook:nth-child(4){
+    background-image: url(images/theMeasures.webp);
+    background-size: 100% 100%;
+}
+.cSbook:nth-child(5){
+    background-image: url(images/bigfoot.webp);
+    background-size: 100% 100%;
+}
+
+.cantMissFiction h2{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.container-books2{
+    width: 93vw;
+    height: 250px;
+    display: flex;
+    background-color: azure;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container-books21{
+    width: 75vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cMfiction{
+    width: 180px;
+    height: 90%;
+    background-color: red;
+}
+
+.cMfiction:first-child{
+    background-image: url(images/flight.webp);
+    background-size: 100% 100%;
+}
+.cMfiction:nth-child(2){
+    background-image: url(images/spiderman.jpg);
+    background-size: 100% 100%;
+}
+.cMfiction:nth-child(3){
+    background-image: url(images/neverLies.webp);
+    background-size: 100% 100%;
+}
+.cMfiction:nth-child(4){
+    background-image: url(images/milesSpider.webp);
+    background-size: 100% 100%;
+}
+.cMfiction:nth-child(5){
+    background-image: url(images/wmtd.webp);
+    background-size: 100% 100%;
+}
+.banner2{
+    width: 94vw;
+    height: 400px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f05f45;
+    background-image: url(images/esterDayBanner.jpg);
+    background-size: 100% 100%;
+}
+.contact{
+    width: 100vw;
+    height: 500px;
+    background-color: #40788a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact table{
+    width: 50vw;
+    height: 70%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 10px;
+}
+.contact table th{
+    font-size: 14px;
+}
+.contact table td{
+    text-align: center;
+}
+.stayIn{
+    width: 25vw;
+    height: 100%;
+    /* background-color: red; */
+}
+.storeAdd{
+    width: 25vw;
+    height: 100%;
+    /* background-color: red; */
+}

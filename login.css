@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.loginBox{
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    border: 1px solid green;
+}
+.inputA{
+    display: block;
+    margin-top: 20px;
+    height: 20px;
+    width: 400px;
+    padding: 10px;
+}
+.inputA:focus{
+    border: 1px solid green;
+}
+.line{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.checkbox{
+    display: inline;
+}
+button{
+    display: block;
+    width: 425px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+}
+button:first-child{
+    color: azure;
+    background-color: green;
+}
+button:first-child:hover{
+    color: green;
+    background-color: azure;
+    font-weight: 900;}
+button:last-child{
+    color: white;
+    background-color: black;
+    }
+    button:last-child:hover{
+        color: black;
+        background-color: white;
+        font-weight: 900;
+        }
+.text{
+    font-size: 10px;
+}
+.text u{
+    color: green;
+}
+#pass{
+    color: black;
+}
